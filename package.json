@@ -1,0 +1,21 @@
+{
+  "name": "youtube-backend",
+  "version": "1.0.0",
+  "description": "start building video serving plateform ",
+  "keywords": [
+    "javaScript",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Sunny Prajapati",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node sre/index.js",
+    "dev": "nodemon sre/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.6"
+  }
+}
